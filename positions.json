@@ -1,0 +1,26 @@
+{
+  "standby": {
+    "shoulder_pan.pos": 2.6377036462373837,
+    "shoulder_lift.pos": -98.75363523057749,
+    "elbow_flex.pos": 97.95282599020916,
+    "wrist_flex.pos": 32.49895702962036,
+    "wrist_roll.pos": -51.524468357673584,
+    "gripper.pos": 1.964512040557668
+  },
+  "pregrasp": {
+    "shoulder_pan.pos": -69.20093095422808,
+    "shoulder_lift.pos": -87.53635230577483,
+    "elbow_flex.pos": 74.27681352914999,
+    "wrist_flex.pos": 23.40425531914893,
+    "wrist_roll.pos": -53.77914424801435,
+    "gripper.pos": 2.5982256020278833
+  },
+  "placement": {
+    "shoulder_pan.pos": 0.23273855702095148,
+    "shoulder_lift.pos": -98.83672621520564,
+    "elbow_flex.pos": 97.86381842456609,
+    "wrist_flex.pos": 32.99958281184814,
+    "wrist_roll.pos": -51.780681527030495,
+    "gripper.pos": 1.964512040557668
+  }
+}

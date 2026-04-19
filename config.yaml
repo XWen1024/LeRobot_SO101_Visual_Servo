@@ -1,0 +1,48 @@
+api:
+  base_url: https://ark.cn-beijing.volces.com/api/v3
+  model: doubao-seed-2-0-lite-260215
+  timeout: 30
+camera:
+  default_index: 0
+  preferred_width: 1280
+  preferred_height: 720
+tracker:
+  algorithm: CSRT
+  area_change_threshold: 0.7
+  aspect_ratio_change_threshold: 0.5
+  displacement_threshold: 0.3
+  template_match_threshold: 0.45
+  loss_confirmation_frames: 3
+redetection:
+  cooldown_seconds: 3.0
+  max_retries: 5
+audio:
+  enabled: true
+  volume: 0.8
+ui:
+  theme: dark
+  window_width: 1200
+  window_height: 750
+yolo:
+  model: yolov8s-worldv2.pt
+  conf_threshold: 0.15
+  max_lost_frames: 15
+  infer_interval_sec: 0.0
+  ema_alpha: 0.6
+robot:
+  port: COM24
+  id: so101_slave
+servo:
+  pan_gain: 25.0
+  tilt_gain: 15.0
+  approach_step: 1.5
+  centering_threshold: 0.04
+  grasp_area_threshold: 0.45
+  gripper_open: 70
+  gripper_close: 0
+  move_fps: 15
+  arrive_threshold: 2.0
+  move_step_limit: 3.0
+  move_timeout_sec: 15.0
+  center_offset_x: 143
+  center_offset_y: 61
